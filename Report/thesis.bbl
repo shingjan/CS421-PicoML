@@ -1,0 +1,71 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Apa(2017)}]{ApachePhoenix}
+ (2017), Apache phoenix, https://phoenix.apache.org/.
+
+\bibitem[{Sna(2017)}]{SnappyDB}
+ (2017), Snappydb, http://www.snappydb.com/.
+
+\bibitem[{\textit{Atikoglu et~al.}(2012)}]{atikoglu2012workload}
+Atikoglu, B., et~al. (2012), Workload analysis of a large-scale key-value
+  store, in \textit{SIGMETRICS}.
+
+\bibitem[{\textit{Cooper et~al.}(2010)}]{cooper2010benchmarking}
+Cooper, B., et~al. (2010), Benchmarking cloud serving systems with ycsb, in
+  \textit{SoCC}.
+
+\bibitem[{\textit{Ding et~al.}(2013)}]{ding2013integrated}
+Ding, H., et~al. (2013), Integrated instruction cache analysis and locking in
+  multitasking real-time systems, in \textit{DAC}.
+
+\bibitem[{\textit{Forman et~al.}(1994)}]{forman1994challenges}
+Forman, G., et~al. (1994), The challenges of mobile computing,
+  \textit{Computer}.
+
+\bibitem[{\textit{Jeong et~al.}(2013)}]{jeong2013stack}
+Jeong, S., et~al. (2013), I/o stack optimization for smartphones., in
+  \textit{ATC}.
+
+\bibitem[{\textit{Kim et~al.}(2016)}]{kim2016nvwal}
+Kim, W., et~al. (2016), Nvwal: exploiting nvram in write-ahead logging.
+
+\bibitem[{\textit{Lee et~al.}(2003)}]{lee2003energy}
+Lee, H., et~al. (2003), Energy-aware memory allocation in heterogeneous
+  non-volatile memory systems, in \textit{ISLPED}.
+
+\bibitem[{\textit{Oh et~al.}(2015)}]{oh2015sqlite}
+Oh, G., et~al. (2015), Sqlite optimization with phase change memory for mobile
+  applications, \textit{VLDB}.
+
+\bibitem[{\textit{Sears et~al.}(2012)}]{sears2012blsm}
+Sears, R., et~al. (2012), blsm: a general purpose log structured merge tree, in
+  \textit{SIGMO/PODS}.
+
+\bibitem[{\textit{Shao et~al.}(2012)}]{shao2012utilizing}
+Shao, Z., et~al. (2012), Utilizing pcm for energy optimization in embedded
+  systems, in \textit{VLSI (ISVLSI), 2012 IEEE Computer Society Annual
+  Symposium on}, pp. 398--403, IEEE.
+
+\bibitem[{\textit{Shen et~al.}(2014)\textit{Shen, Park
+  et~al.}}]{shen2014journaling}
+Shen, K., S.~Park, et~al. (2014), Journaling of journal is (almost) free., in
+  \textit{FAST}.
+
+\bibitem[{\textit{Shen et~al.}(2017)}]{shen2017didacache}
+Shen, Z., et~al. (2017), Didacache: A deep integration of device and
+  application for flash based key-value caching., in \textit{FAST}.
+
+\bibitem[{\textit{Sinha et~al.}(2016)}]{sinha2016low}
+Sinha, S., et~al. (2016), Low-power fpga design using memoization-based
+  approximate computing, \textit{VLSI}.
+
+\bibitem[{\textit{Wu et~al.}(2015)}]{190528}
+Wu, X., et~al. (2015), Lsm-trie: An lsm-tree-based ultra-large key-value store
+  for small data items, in \textit{USENIX ATC}.
+
+\end{thebibliography}

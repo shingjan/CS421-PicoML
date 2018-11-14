@@ -1,0 +1,35 @@
+\contentsline {chapter}{LIST OF FIGURES}{iii}
+\contentsline {chapter}{ABSTRACT}{iv}
+\mbox { }\newline \noindent {\bf CHAPTER}\newline 
+\hbox { }
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf I.\hspace {5pt}}{\bf Introduction}}{1}
+\hbox { }
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf II.\hspace {5pt}}{\bf Background}}{4}
+\hbox { }
+\contentsline {section}{\numberline {2.1}SQLite}{4}
+\contentsline {section}{\numberline {2.2}LSM-tree-based Key-Value Database}{5}
+\contentsline {section}{\numberline {2.3}Other SQL-Compatible Key-Value Databases}{7}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf III.\hspace {5pt}}{\bf Project Methodology}}{8}
+\hbox { }
+\contentsline {section}{\numberline {3.1}Design Overview}{8}
+\contentsline {subsection}{\numberline {3.1.1}Front-End}{9}
+\contentsline {subsubsection}{\numberline {3.1.1.1}SQLite-Like Compiler}{9}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Slab-Allocation Caching}{10}
+\contentsline {subsection}{\numberline {3.1.2}Back-End}{11}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Index Management On LSM Tree}{11}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Storage Management}{12}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf IV.\hspace {5pt}}{\bf Evaluation}}{13}
+\hbox { }
+\contentsline {section}{\numberline {4.1}Experiment Setup}{13}
+\contentsline {section}{\numberline {4.2}Overall Performance}{14}
+\contentsline {section}{\numberline {4.3}Performance with Different Sequential/Random Workloads}{16}
+\contentsline {subsubsection}{\numberline {4.3.0.1}Insertion Performance}{16}
+\contentsline {subsubsection}{\numberline {4.3.0.2}Query Performance}{17}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf V.\hspace {5pt}}{\bf Conclusion}}{18}
+\hbox { }
+\contentsline {chapter}{BIBLIOGRAPHY}{19}
