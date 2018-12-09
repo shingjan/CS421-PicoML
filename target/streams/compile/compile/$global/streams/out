@@ -1,0 +1,26 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/dslapi.scala:81:54: method manifest in trait BaseExp is deprecated: Use typ instead; will be removed in 1.1.0[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def isPrimitiveType[T](m: Typ[T]) = (m == manifest[String]) || super.isPrimitiveType(m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/dslapi.scala:293:72: method lines in trait ProcessBuilder is deprecated: Use lineStream instead.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (s"cc -std=c99 -O3 /tmp/snippet.c -o /tmp/snippet":ProcessBuilder).lines.foreach(Console.println _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/dslapi.scala:294:41: method lines in trait ProcessBuilder is deprecated: Use lineStream instead.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (s"/tmp/snippet $a":ProcessBuilder).lines.foreach(Console.println _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/scanner.scala:74:117: method manifest in trait BaseExp is deprecated: Use typ instead; will be removed in 1.1.0[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Reflect(e@ScannerNew(fn), u, es) => reflectMirrored(Reflect(ScannerNew(f(fn)), mapOver(f,u), f(es)))(mtype(manifest[A]), pos)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/scanner.scala:75:124: method manifest in trait BaseExp is deprecated: Use typ instead; will be removed in 1.1.0[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Reflect(ScannerNext(s, d), u, es) => reflectMirrored(Reflect(ScannerNext(f(s), f(d)), mapOver(f,u), f(es)))(mtype(manifest[A]), pos)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/scanner.scala:76:121: method manifest in trait BaseExp is deprecated: Use typ instead; will be removed in 1.1.0[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Reflect(ScannerHasNext(s), u, es) => reflectMirrored(Reflect(ScannerHasNext(f(s)), mapOver(f,u), f(es)))(mtype(manifest[A]), pos)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/scanner.scala:77:117: method manifest in trait BaseExp is deprecated: Use typ instead; will be removed in 1.1.0[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Reflect(ScannerClose(s), u, es) => reflectMirrored(Reflect(ScannerClose(f(s)), mapOver(f,u), f(es)))(mtype(manifest[A]), pos)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/York/Google Drive/Year 1 Sem 1/cs421/sql_compiler/src/main/scala/utils.scala:36:19: method setOut in class DeprecatedConsole is deprecated: Use withOut[0m
+[0m[[0m[33mwarn[0m] [0m[0m    scala.Console.setOut(new PrintStream(output))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 7 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 warnings found[0m
